@@ -12,7 +12,7 @@ public class PickaxiTabPickaxe extends CreativeTabs {
 
     @Override
     public String getTranslatedTabLabel() {
-        return "Stoney Pixkaxi";
+        return "Stoney Pickaxi";
     }
 
     @Override
