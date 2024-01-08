@@ -17,7 +17,7 @@ public class RegisterItems {
     public static Item stoneyPickaxi;
 
     public static Item.ToolMaterial STONEY_TOOLS_MATERIAL = EnumHelper
-        .addToolMaterial("STONEY_TOOLS_MATERIAL", 3, 2000, 6.0F, 0.1F, 30);
+        .addToolMaterial("STONEY_TOOLS_MATERIAL", 2, 660, 4.0F, 3.0F, 30);
 
     public static void init() {
         // Kit tools
