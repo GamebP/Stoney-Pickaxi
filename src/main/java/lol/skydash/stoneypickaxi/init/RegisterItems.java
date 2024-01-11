@@ -42,18 +42,15 @@ public class RegisterItems {
     public static void init() {
         // Kit tools
         // Normal pickaxe
-        stoneyPickaxi = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL)
-            .setUnlocalizedName("stoneypickaxi")
+        stoneyPickaxi = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL).setUnlocalizedName("stoneypickaxi")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
             .setTextureName(Reference.MOD_ID + ":stoneypickaxi");
         // Tier 1
-        stoneyPickaxi_one = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_ONE)
-            .setUnlocalizedName("stoneypickaxi_one")
+        stoneyPickaxi_one = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_ONE).setUnlocalizedName("stoneypickaxi_one")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
             .setTextureName(Reference.MOD_ID + ":stoneypickaxi_one");
         // Tear 2
-        stoneyPickaxi_two = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_TWO)
-            .setUnlocalizedName("stoneypickaxi_two")
+        stoneyPickaxi_two = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_TWO).setUnlocalizedName("stoneypickaxi_two")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
             .setTextureName(Reference.MOD_ID + ":stoneypickaxi_two");
         // Tear 3
@@ -160,8 +157,11 @@ public class RegisterItems {
             "OBO",
             "OPO",
             "OOO",
-            'P', new ItemStack(stoneyPickaxi_four, 1, 0),
-            'B', Items.nether_star,
-            'O', Blocks.obsidian);
+            'P',
+            new ItemStack(stoneyPickaxi_four, 1, 0),
+            'B',
+            Items.nether_star,
+            'O',
+            Blocks.obsidian);
     }
 }
