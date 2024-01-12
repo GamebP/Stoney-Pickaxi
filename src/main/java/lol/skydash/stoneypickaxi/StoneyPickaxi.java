@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import lol.skydash.stoneypickaxi.init.RegisterItems;
 import lol.skydash.stoneypickaxi.proxy.CommonProxy;
+import lol.skydash.stoneypickaxi.utils.PickaxiTabItem;
 import lol.skydash.stoneypickaxi.utils.PickaxiTabPickaxe;
 import lol.skydash.stoneypickaxi.utils.Reference;
 
@@ -24,6 +25,7 @@ public class StoneyPickaxi {
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
     public static CommonProxy proxy;
     public static PickaxiTabPickaxe StoneyPickaxeTab = new PickaxiTabPickaxe("stoneypickaxiTab");
+    public static PickaxiTabItem StoneyItemTab = new PickaxiTabItem("stoneyitemTab");
 
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event) {

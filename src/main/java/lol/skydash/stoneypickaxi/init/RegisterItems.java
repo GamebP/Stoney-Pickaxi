@@ -8,11 +8,15 @@ import net.minecraftforge.common.util.EnumHelper;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import lol.skydash.stoneypickaxi.StoneyPickaxi;
+import lol.skydash.stoneypickaxi.items.StoneyDiamondItem;
+import lol.skydash.stoneypickaxi.items.StoneyIronItem;
 import lol.skydash.stoneypickaxi.tools.StoneyPickaxiPickaxe;
 import lol.skydash.stoneypickaxi.utils.Reference;
 
 public class RegisterItems {
 
+    public static Item stoneyDiamond;
+    public static Item stoneyIron;
     // items
     public static Item stoneyPickaxi;
     public static Item stoneyPickaxi_one;
@@ -40,7 +44,14 @@ public class RegisterItems {
         .addToolMaterial("STONEY_TOOLS_MATERIAL_FOUR", 3, 1099, 5F, 4F, 30);
 
     public static void init() {
-        // Kit tools
+        // Items
+        stoneyDiamond = new StoneyDiamondItem().setUnlocalizedName("stoneyDiamond")
+            .setCreativeTab(StoneyPickaxi.StoneyItemTab)
+            .setTextureName(Reference.MOD_ID + ":stoney_diamond");
+        stoneyIron = new StoneyIronItem().setUnlocalizedName("stoneyIron")
+            .setCreativeTab(StoneyPickaxi.StoneyItemTab)
+            .setTextureName(Reference.MOD_ID + ":stoney_iron");
+
         // Normal pickaxe
         stoneyPickaxi = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL).setUnlocalizedName("stoneypickaxi")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
@@ -72,7 +83,9 @@ public class RegisterItems {
 
     // register items/blocks + make recipes
     public static void register() {
-        // register names
+        // Items
+        GameRegistry.registerItem(stoneyDiamond, "stoneyDiamond");
+        GameRegistry.registerItem(stoneyIron, "stoneyIron");
         // Normal pickaxe
         GameRegistry.registerItem(stoneyPickaxi, "stoneypickaxi");
 
