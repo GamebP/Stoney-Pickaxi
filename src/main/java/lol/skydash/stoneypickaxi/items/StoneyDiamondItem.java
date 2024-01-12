@@ -6,6 +6,5 @@ public class StoneyDiamondItem extends Item {
 
     public StoneyDiamondItem() {
         super();
-        this.setMaxDamage(1);
     }
 }
