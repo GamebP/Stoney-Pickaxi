@@ -1,9 +1,10 @@
 package lol.skydash.stoneypickaxi.init;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+
+import cpw.mods.fml.common.registry.GameRegistry;
 
 public class RegisterRecepies extends RegisterVar {
 
@@ -97,12 +98,11 @@ public class RegisterRecepies extends RegisterVar {
             Blocks.obsidian);
 
         GameRegistry.addShapedRecipe(
-            new ItemStack(stoneyUnknown,1),
+            new ItemStack(stoneyUnknown, 1),
             "   ",
             " P ",
             "   ",
             'P',
-            new ItemStack(stoneyDiamond,1,0)
-        );
+            new ItemStack(stoneyDiamond, 1, 0));
     }
 }
