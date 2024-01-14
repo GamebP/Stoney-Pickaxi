@@ -9,10 +9,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import lol.skydash.stoneypickaxi.init.RegisterItems;
 import lol.skydash.stoneypickaxi.init.RegisterRecepies;
-import lol.skydash.stoneypickaxi.init.RegisterSmelting;
 import lol.skydash.stoneypickaxi.init.RegisterTextures;
 import lol.skydash.stoneypickaxi.proxy.CommonProxy;
-import lol.skydash.stoneypickaxi.utils.PickaxiTabItem;
 import lol.skydash.stoneypickaxi.utils.PickaxiTabPickaxe;
 import lol.skydash.stoneypickaxi.utils.Reference;
 
@@ -20,7 +18,8 @@ import lol.skydash.stoneypickaxi.utils.Reference;
     modid = Reference.MOD_ID,
     name = Reference.MOD_NAME,
     version = Reference.MOD_VERSION,
-    acceptedMinecraftVersions = Reference.MC_VERSION)
+    acceptedMinecraftVersions = Reference.MC_VERSION,
+    dependencies = "required-after:stoneyshovelaxi;required-after:stoneyingotaxi;")
 public class StoneyPickaxi {
 
     @Mod.Instance(Reference.MOD_ID)
@@ -28,14 +27,12 @@ public class StoneyPickaxi {
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
     public static CommonProxy proxy;
     public static PickaxiTabPickaxe StoneyPickaxeTab = new PickaxiTabPickaxe("stoneypickaxiTab");
-    public static PickaxiTabItem StoneyItemTab = new PickaxiTabItem("stoneyitemTab");
 
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
         RegisterTextures.init();
         RegisterItems.register();
         RegisterRecepies.Recepies();
-        RegisterSmelting.Smelting();
     }
 
     public static class WorldLoadHandler {

@@ -5,10 +5,6 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class RegisterVar {
 
-    // Items
-    public static Item stoneyUnknown;
-    public static Item stoneyDiamond;
-    public static Item stoneyIron;
     // Pickaxes
     public static Item stoneyPickaxi;
     public static Item stoneyPickaxi_one;

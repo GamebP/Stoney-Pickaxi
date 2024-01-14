@@ -21,7 +21,6 @@ public class RegisterRecepies extends RegisterVar {
             'C',
             Blocks.cobblestone);
         // Tier 1 pickaxe
-        GameRegistry.registerItem(stoneyPickaxi_one, "stoneypickaxi_one");
 
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi_one, 1),
@@ -34,8 +33,6 @@ public class RegisterRecepies extends RegisterVar {
             Blocks.log);
 
         // Tier 2 pickaxe
-        GameRegistry.registerItem(stoneyPickaxi_two, "stoneypickaxi_two");
-
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi_two, 1),
             "OOO",
@@ -47,8 +44,6 @@ public class RegisterRecepies extends RegisterVar {
             Blocks.coal_block);
 
         // Tier 3 pickaxe
-        GameRegistry.registerItem(stoneyPickaxi_three, "stoneypickaxi_three");
-
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi_three, 1),
             "NIL",
@@ -66,8 +61,6 @@ public class RegisterRecepies extends RegisterVar {
             Items.iron_pickaxe);
 
         // Tier 4 pickaxe
-        GameRegistry.registerItem(stoneyPickaxi_four, "stoneypickaxi_four");
-
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi_four, 1),
             "OEO",
@@ -83,8 +76,6 @@ public class RegisterRecepies extends RegisterVar {
             Blocks.emerald_block);
 
         // Tier 5 pickaxe
-        GameRegistry.registerItem(stoneyPickaxi_five, "stoneypickaxi_five");
-
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi_five, 1),
             "OBO",
@@ -97,12 +88,20 @@ public class RegisterRecepies extends RegisterVar {
             'O',
             Blocks.obsidian);
 
-        GameRegistry.addShapedRecipe(
-            new ItemStack(stoneyUnknown, 1),
-            "   ",
-            " P ",
-            "   ",
-            'P',
-            new ItemStack(stoneyDiamond, 1, 0));
+        /*
+         * if this code isn't used , if the player don't use stoneyshovelaxi mod it will lead to crash
+         * if (FMLCommonHandler.instance()
+         * .findContainerFor("stoneyshovelaxi") != null) {
+         * GameRegistry.addShapedRecipe(
+         * new ItemStack(Blocks.log, 1),
+         * "   ",
+         * " G ",
+         * " H ",
+         * 'G',
+         * new ItemStack(RegisterItems.stoneyShovelaxi, 1, 0),
+         * 'H',
+         * Items.flint);
+         * }
+         */
     }
 }

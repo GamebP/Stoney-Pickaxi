@@ -1,26 +1,12 @@
 package lol.skydash.stoneypickaxi.init;
 
 import lol.skydash.stoneypickaxi.StoneyPickaxi;
-import lol.skydash.stoneypickaxi.items.StoneyDiamondItem;
-import lol.skydash.stoneypickaxi.items.StoneyIronItem;
-import lol.skydash.stoneypickaxi.items.StoneyUnknownItem;
 import lol.skydash.stoneypickaxi.tools.StoneyPickaxiPickaxe;
 import lol.skydash.stoneypickaxi.utils.Reference;
 
 public class RegisterTextures extends RegisterVar {
 
     public static void init() {
-        // Items
-        stoneyUnknown = new StoneyUnknownItem().setUnlocalizedName("stoneyUnknown")
-            .setCreativeTab(StoneyPickaxi.StoneyItemTab)
-            .setTextureName(Reference.MOD_ID + ":stoney_unknown");
-        stoneyDiamond = new StoneyDiamondItem().setUnlocalizedName("stoneyDiamond")
-            .setCreativeTab(StoneyPickaxi.StoneyItemTab)
-            .setTextureName(Reference.MOD_ID + ":stoney_diamond");
-        stoneyIron = new StoneyIronItem().setUnlocalizedName("stoneyIron")
-            .setCreativeTab(StoneyPickaxi.StoneyItemTab)
-            .setTextureName(Reference.MOD_ID + ":stoney_iron");
-
         // Normal pickaxe
         stoneyPickaxi = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL).setUnlocalizedName("stoneypickaxi")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
