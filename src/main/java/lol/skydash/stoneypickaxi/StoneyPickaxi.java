@@ -19,7 +19,7 @@ import lol.skydash.stoneypickaxi.utils.Reference;
     name = Reference.MOD_NAME,
     version = Reference.MOD_VERSION,
     acceptedMinecraftVersions = Reference.MC_VERSION,
-    dependencies = "required-after:stoneyshovelaxi;required-after:stoneyingotaxi;")
+    dependencies = "required-after:stoneyshovelaxi;required-after:stoneyingotaxi;required-after:stoneyswordaxi;")
 public class StoneyPickaxi {
 
     @Mod.Instance(Reference.MOD_ID)
