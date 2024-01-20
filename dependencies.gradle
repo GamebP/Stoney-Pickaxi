@@ -35,6 +35,6 @@
  */
 dependencies {
     implementation files("libs/stoneyshovelaxi-1.0.jar")
-    implementation files("libs/stoneyingotaxi-1.0.jar")
+    implementation files("libs/stoneyingotaxi-1.1.jar")
     implementation files("libs/stoneyswordaxi-1.0.jar")
 }
