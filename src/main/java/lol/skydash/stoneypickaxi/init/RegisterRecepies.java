@@ -1,11 +1,12 @@
 package lol.skydash.stoneypickaxi.init;
 
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.registry.GameRegistry;
-import lol.skydash.stoneyingotaxi.init.RegisterItems;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.registry.GameRegistry;
+import lol.skydash.stoneyingotaxi.init.RegisterItems;
 
 public class RegisterRecepies extends RegisterVar {
 
