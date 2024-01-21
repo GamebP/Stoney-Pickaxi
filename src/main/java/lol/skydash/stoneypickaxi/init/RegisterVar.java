@@ -12,6 +12,11 @@ public class RegisterVar {
     public static Item stoneyPickaxi_three;
     public static Item stoneyPickaxi_four;
     public static Item stoneyPickaxi_five;
+    public static Item stoneyPickaxi_six;
+    public static Item stoneyPickaxi_seven;
+    public static Item stoneyPickaxi_eight;
+    public static Item stoneyPickaxi_nine;
+    public static Item stoneyPickaxi_ten;
 
     public static Item.ToolMaterial STONEY_TOOLS_MATERIAL = EnumHelper
         .addToolMaterial("STONEY_TOOLS_MATERIAL", 2, 659, 4.0F, 3.0F, 30);
@@ -29,6 +34,20 @@ public class RegisterVar {
         .addToolMaterial("STONEY_TOOLS_MATERIAL_FOUR", 2, 859, 3.5F, 2.5F, 30);
     // Tear 5
     public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_FIVE = EnumHelper
-        .addToolMaterial("STONEY_TOOLS_MATERIAL_FOUR", 3, 1099, 5F, 4F, 30);
-
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_FIVE", 3, 1099, 5F, 4F, 30);
+    // Tear 6
+    public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_SIX = EnumHelper
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_SIC", 3, 1799, 5F, 4F, 30);
+    // Tear 7
+    public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_SEVEN = EnumHelper
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_SEVEN", 3, 2549, 5F, 4F, 30);
+    // Tear 8
+    public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_EIGHT = EnumHelper
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_EIGHT", 3, 3269, 6F, 5F, 30);
+    // Tear 9
+    public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_NINE = EnumHelper
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_NINE", 3, 4249, 7F, 5.5F, 30);
+    // Tear 10
+    public static Item.ToolMaterial STONEY_TOOLS_MATERIAL_TEN = EnumHelper
+        .addToolMaterial("STONEY_TOOLS_MATERIAL_TEN", 4, 4999, 8F, 6.5F, 30);
 }

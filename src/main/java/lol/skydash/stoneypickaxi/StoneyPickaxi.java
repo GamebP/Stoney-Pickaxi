@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import lol.skydash.stoneypickaxi.init.RegisterItems;
 import lol.skydash.stoneypickaxi.init.RegisterRecepies;
+import lol.skydash.stoneypickaxi.init.RegisterSmelting;
 import lol.skydash.stoneypickaxi.init.RegisterTextures;
 import lol.skydash.stoneypickaxi.proxy.CommonProxy;
 import lol.skydash.stoneypickaxi.utils.PickaxiTabPickaxe;
@@ -33,6 +34,7 @@ public class StoneyPickaxi {
         RegisterTextures.init();
         RegisterItems.register();
         RegisterRecepies.Recepies();
+        RegisterSmelting.RegRecepies();
     }
 
     public static class WorldLoadHandler {

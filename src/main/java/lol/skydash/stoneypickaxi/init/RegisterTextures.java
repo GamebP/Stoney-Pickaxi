@@ -34,5 +34,28 @@ public class RegisterTextures extends RegisterVar {
             .setUnlocalizedName("stoneypickaxi_five")
             .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
             .setTextureName(Reference.MOD_ID + ":stoneypickaxi_five");
+        // Tear 6
+        stoneyPickaxi_six = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_SIX).setUnlocalizedName("stoneypickaxi_six")
+            .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
+            .setTextureName(Reference.MOD_ID + ":stoneypickaxi_six");
+        // Tear 7
+        stoneyPickaxi_seven = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_SEVEN)
+            .setUnlocalizedName("stoneypickaxi_seven")
+            .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
+            .setTextureName(Reference.MOD_ID + ":stoneypickaxi_seven");
+        // Tear 8
+        stoneyPickaxi_eight = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_EIGHT)
+            .setUnlocalizedName("stoneypickaxi_eight")
+            .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
+            .setTextureName(Reference.MOD_ID + ":stoneypickaxi_eight");
+        // Tear 9
+        stoneyPickaxi_nine = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_NINE)
+            .setUnlocalizedName("stoneypickaxi_nine")
+            .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
+            .setTextureName(Reference.MOD_ID + ":stoneypickaxi_nine");
+        // Tear 10
+        stoneyPickaxi_ten = new StoneyPickaxiPickaxe(STONEY_TOOLS_MATERIAL_TEN).setUnlocalizedName("stoneypickaxi_ten")
+            .setCreativeTab(StoneyPickaxi.StoneyPickaxeTab)
+            .setTextureName(Reference.MOD_ID + ":stoneypickaxi_ten");
     }
 }

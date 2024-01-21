@@ -11,5 +11,10 @@ public class RegisterItems extends RegisterVar {
         GameRegistry.registerItem(stoneyPickaxi_three, "stoneypickaxi_three");
         GameRegistry.registerItem(stoneyPickaxi_four, "stoneypickaxi_four");
         GameRegistry.registerItem(stoneyPickaxi_five, "stoneypickaxi_five");
+        GameRegistry.registerItem(stoneyPickaxi_six, "stoneypickaxi_six");
+        GameRegistry.registerItem(stoneyPickaxi_seven, "stoneypickaxi_seven");
+        GameRegistry.registerItem(stoneyPickaxi_eight, "stoneypickaxi_eight");
+        GameRegistry.registerItem(stoneyPickaxi_nine, "stoneypickaxi_nine");
+        GameRegistry.registerItem(stoneyPickaxi_ten, "stoneypickaxi_ten");
     }
 }
