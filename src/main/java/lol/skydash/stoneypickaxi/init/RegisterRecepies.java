@@ -3,7 +3,6 @@ package lol.skydash.stoneypickaxi.init;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.registry.GameRegistry;
 import lol.skydash.stoneyingotaxi.init.RegisterItems;
-import lol.skydash.stoneypickaxi.init.Recepies.Normal.*;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -44,54 +43,6 @@ public class RegisterRecepies extends RegisterVar {
         }
 
         // Pickaxes
-        stoniePickaxieNormal_1.Recipes_Default_1();
-        stoniePickaxieNormal_2.Recipes_Default_2();
-        stoniePickaxieNormal_3.Recipes_Default_3();
-        stoniePickaxieNormal_4.Recipes_Default_4();
-        stoniePickaxieNormal_5.Recipes_Default_5();
-        stoniePickaxieNormal_6.Recipes_Default_6();
-        stoniePickaxieNormal_7.Recipes_Default_7();
-        stoniePickaxieNormal_8.Recipes_Default_8();
-        stoniePickaxieNormal_9.Recipes_Default_9();
-        stoniePickaxieNormal_10.Recipes_Default_10();
-        stoniePickaxieNormal_11.Recipes_Default_11();
-        stoniePickaxieNormal_12.Recipes_Default_12();
-        stoniePickaxieNormal_13.Recipes_Default_13();
-        stoniePickaxieNormal_14.Recipes_Default_14();
-        stoniePickaxieNormal_15.Recipes_Default_15();
-        stoniePickaxieNormal_16.Recipes_Default_16();
-        stoniePickaxieNormal_17.Recipes_Default_17();
-        stoniePickaxieNormal_18.Recipes_Default_18();
-        stoniePickaxieNormal_19.Recipes_Default_19();
-        stoniePickaxieNormal_20.Recipes_Default_20();
-        stoniePickaxieNormal_21.Recipes_Default_21();
-        stoniePickaxieNormal_22.Recipes_Default_22();
-        stoniePickaxieNormal_23.Recipes_Default_23();
-        stoniePickaxieNormal_24.Recipes_Default_24();
-        stoniePickaxieNormal_25.Recipes_Default_25();
-        stoniePickaxieNormal_26.Recipes_Default_26();
-        stoniePickaxieNormal_27.Recipes_Default_27();
-        stoniePickaxieNormal_28.Recipes_Default_28();
-        stoniePickaxieNormal_29.Recipes_Default_29();
-        stoniePickaxieNormal_30.Recipes_Default_30();
-        stoniePickaxieNormal_31.Recipes_Default_31();
-        stoniePickaxieNormal_32.Recipes_Default_32();
-        stoniePickaxieNormal_33.Recipes_Default_33();
-        stoniePickaxieNormal_34.Recipes_Default_34();
-        stoniePickaxieNormal_35.Recipes_Default_35();
-        stoniePickaxieNormal_36.Recipes_Default_36();
-        stoniePickaxieNormal_37.Recipes_Default_37();
-        stoniePickaxieNormal_38.Recipes_Default_38();
-        stoniePickaxieNormal_39.Recipes_Default_39();
-        stoniePickaxieNormal_40.Recipes_Default_40();
-        stoniePickaxieNormal_41.Recipes_Default_41();
-        stoniePickaxieNormal_42.Recipes_Default_42();
-        stoniePickaxieNormal_43.Recipes_Default_43();
-        stoniePickaxieNormal_44.Recipes_Default_44();
-        stoniePickaxieNormal_45.Recipes_Default_45();
-        stoniePickaxieNormal_46.Recipes_Default_46();
-        stoniePickaxieNormal_47.Recipes_Default_47();
-        stoniePickaxieNormal_48.Recipes_Default_48();
         GameRegistry.addShapedRecipe(
             new ItemStack(stoneyPickaxi, 1),
             "ALA",
